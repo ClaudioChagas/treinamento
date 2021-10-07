@@ -1,0 +1,98 @@
+body {
+    padding: 0;
+    margin:0;
+    background-color: #fffaf0 ;
+    font-family: cursive;
+}
+
+.cabeçalho {
+    display: flex;
+    justify-content: space-around;
+    border-bottom:white solid 3px;
+    align-items: center;
+    background-color:#171139;
+    font-size: 16px;
+    
+}
+
+.elementos a {
+    color: #fffaf0;
+    text-decoration: none;
+    padding-right: 30px;
+}
+
+.logo {
+    height: 100px;
+    width: 100px;
+}
+
+.elementos a:hover {
+    color: #E9967A;
+}
+
+/*comeco do home*/
+
+.container {
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.home {
+    display: block;
+    text-align: center;
+    padding-right: 30px;
+}
+
+
+.minhaFoto {
+    border-radius: 460px;
+    height: 200px;
+    width: 200px;
+}
+
+.texto {
+    
+    padding: 0px 5px 5px 5px;
+    color: #171139;
+    border: 1px solid #E9967A;
+    margin-top: 5px;
+    border-radius: 10px;
+    
+}
+
+.perfil {
+    color: gray;
+}
+
+.pc {
+    height: 500px;
+    width: 400px;
+    border-radius: 10px;
+}
+
+/* contato */
+
+footer {
+    background-color: #E9967A;
+    border-top: 3px solid white;
+}
+
+.contato {
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+      
+}
+
+.bloco-final {
+    padding-top: 10px;
+
+}
+
+
+.textos {
+    margin-left: 30px;
+}

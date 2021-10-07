@@ -1,0 +1,12 @@
+@media screen and (max-width: 700px) {
+    
+    .container {
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .imagemPc {
+        margin-top: 40px;
+    }
+}
